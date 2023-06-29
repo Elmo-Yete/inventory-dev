@@ -1,0 +1,125 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #0e0e10;
+  color: white;
+}
+
+.twitch {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.twitch .streamers {
+  background: #1f1f23;
+  display: flex;
+  width: 24rem;
+  max-width: 24rem;
+}
+
+.twitch .streamers .streamers-bar {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.twitch .streamers .streamers-bar .streamersList {
+  text-decoration: none;
+  color: white;
+}
+
+.twitch .streamers .streamers-bar .streamersList {
+  text-decoration: none;
+}
+.twitch .streamers .streamers-bar .negativeViewers {
+  color: #828282;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.twitch .streamers .streamers-bar .streamerCard {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.twitch .streamers .streamers-bar .streamerCard .streamerImg {
+  border-radius: 50%;
+  padding-left: 0.5rem;
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+}
+
+.twitch .streamers .streamers-bar .streamerCard .streamerName {
+  font-weight: 600;
+  font-size: large;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.twitch .streamers .streamers-bar .streamerCard .viewersContainer {
+  display: flex;
+  width: 120px;
+}
+
+.twitch .streamers .streamers-bar .streamerCard .viewers {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.twitch .streamers .streamers-bar .streamerCard .game {
+  display: flex;
+  margin: 0;
+  padding-left: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100px;
+  color: #828282;
+}
+
+.twitch .gamesCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding-left: 2rem;
+  gap: 1rem;
+}
+
+.twitch .gamesCards .cardContainer {
+  position: relative;
+}
+
+.twitch .gamesCards .cardContainer .cardWrapper {
+  text-decoration: none;
+  color: white;
+}
+
+.twitch .gamesCards .cardContainer img {
+  width: 200px;
+}
+.twitch .gamesCards .cardContainer h5 {
+  margin: 0;
+  margin-top: 2px;
+  font-size: 1rem;
+}
+.twitch .gamesCards .cardContainer p {
+  margin: 0;
+  margin-top: 2px;
+  font-size: 1rem;
+  color: #828282;
+}
+
+.twitch .gamesCards .cardContainer .cardWrapper .newGame {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background-color: #f77ed9;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
